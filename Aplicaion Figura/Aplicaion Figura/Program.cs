@@ -21,10 +21,9 @@ namespace AplicacionFiguras
             CreadorRectangulo creatorA = new();
             CreadorCirculo creatorB = new();
             CreadorTriangulo creatorC = new();
-            //CreadorTrapecio creatorD = new();
 
             Console.WriteLine();
-            Console.WriteLine("*********Creadores*********");
+            Console.WriteLine("***Creadores***");
             List<IFigura> listaFiguras = new List<IFigura>();
 
             var fig = JsonConvert.DeserializeObject<List<AplicacionFigura.Modelo>>(figuras);
@@ -62,7 +61,7 @@ namespace AplicacionFiguras
                 double area = figura.calcularArea();
                 Console.WriteLine("El Área es: " + area);
                 acumuladorAreas = acumuladorAreas + area;
-                Console.WriteLine("El longitud de la etiqueta es: " + figura.calcularLongitudEtiqueta());
+                Console.WriteLine("La longitud de la etiqueta es: " + figura.calcularLongitudEtiqueta());
                 Console.WriteLine("==========================");
                 cont++;
             }
