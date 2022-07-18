@@ -1,0 +1,30 @@
+﻿[
+  {
+    "Figura": {
+      "nombre": "Circulo",
+      "tipo": "circulo",
+      "cadena": "radio=4;"
+    }
+  },
+  {
+    "Figura": {
+      "nombre": "Rectángulo",
+      "tipo": "rectángilo",
+      "cadena": "width=6;height=4;"
+    }
+  },
+  {
+    "Figura": {
+      "nombre": "Triángulo",
+      "tipo": "triángulo",
+      "cadena": "a=3;b=4;c=5;"
+    }
+  },
+  {
+    "Figura": {
+      "nombre": "cuadrado",
+      "tipo": "cuadrado",
+      "cadena": "a=3;b=5;"
+    }
+  }
+]

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicaion Figura", "Aplicaion Figura\Aplicaion Figura.csproj", "{63978445-8D40-4850-B85A-83C34FB918FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibreriaFiguras", "..\LibreriaFiguras\LibreriaFiguras\LibreriaFiguras.csproj", "{84812770-5C2D-4A15-B4F9-1C6C157A9E46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63978445-8D40-4850-B85A-83C34FB918FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63978445-8D40-4850-B85A-83C34FB918FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63978445-8D40-4850-B85A-83C34FB918FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63978445-8D40-4850-B85A-83C34FB918FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84812770-5C2D-4A15-B4F9-1C6C157A9E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84812770-5C2D-4A15-B4F9-1C6C157A9E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84812770-5C2D-4A15-B4F9-1C6C157A9E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84812770-5C2D-4A15-B4F9-1C6C157A9E46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25E9B1A3-C7BF-4DD6-BE11-9B60154FF886}
+	EndGlobalSection
+EndGlobal

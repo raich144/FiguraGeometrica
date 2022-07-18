@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U53b3TZ8rZ0/l5uvHo3zH1eF4P6cvDvhHti3602kIclXCa7SGe7g7rK8rUm/VeIF7JItVJQj6EHm+mskEHbx0w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ripia\\source\\repos\\Aplicaion Figura\\Aplicaion Figura\\Aplicaion Figura.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ripia\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

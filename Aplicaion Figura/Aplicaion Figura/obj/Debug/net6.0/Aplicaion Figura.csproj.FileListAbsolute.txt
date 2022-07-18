@@ -1,0 +1,19 @@
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\bin\Debug\net6.0\Aplicaion Figura.exe
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\bin\Debug\net6.0\Aplicaion Figura.deps.json
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\bin\Debug\net6.0\Aplicaion Figura.runtimeconfig.json
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\bin\Debug\net6.0\Aplicaion Figura.dll
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\bin\Debug\net6.0\Aplicaion Figura.pdb
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\bin\Debug\net6.0\LibreriaFiguras.dll
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\bin\Debug\net6.0\LibreriaFiguras.pdb
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\obj\Debug\net6.0\Aplicaion Figura.csproj.AssemblyReference.cache
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\obj\Debug\net6.0\Aplicaion Figura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\obj\Debug\net6.0\Aplicaion Figura.AssemblyInfoInputs.cache
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\obj\Debug\net6.0\Aplicaion Figura.AssemblyInfo.cs
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\obj\Debug\net6.0\Aplicaion Figura.csproj.CoreCompileInputs.cache
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\obj\Debug\net6.0\Aplicaion Figura.csproj.CopyComplete
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\obj\Debug\net6.0\Aplicaion Figura.dll
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\obj\Debug\net6.0\refint\Aplicaion Figura.dll
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\obj\Debug\net6.0\Aplicaion Figura.pdb
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\obj\Debug\net6.0\Aplicaion Figura.genruntimeconfig.cache
+C:\Users\ripia\source\repos\Aplicaion Figura\Aplicaion Figura\obj\Debug\net6.0\ref\Aplicaion Figura.dll
