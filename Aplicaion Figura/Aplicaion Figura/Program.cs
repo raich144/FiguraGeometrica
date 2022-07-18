@@ -62,23 +62,22 @@ namespace AplicacionFiguras
                 Console.WriteLine("El Área es: " + area);
                 acumuladorAreas = acumuladorAreas + area;
                 Console.WriteLine("La longitud de la etiqueta es: " + figura.calcularLongitudEtiqueta());
-                Console.WriteLine("==========================");
+                Console.WriteLine("==========================\n");
                 cont++;
             }
 
-            Console.WriteLine();
             Console.WriteLine("AREA TOTAL DE CANVA  : " + canvaArea);
             Console.WriteLine();
             Console.WriteLine("AREA TOTAL DE FIGURAS: " + acumuladorAreas);
             Console.WriteLine();
-            Console.WriteLine("***CANVA***");
+            Console.WriteLine("\n***CANVA***");
             if (canvaArea > acumuladorAreas)
             {
-                foreach (IFigura figu in listaFiguras)
+                foreach (IFigura figura in listaFiguras)
                 {
                     Console.WriteLine();
-                    Console.WriteLine("*****DIBUJANDO EN CANVA****");
-                    figu.dibujarFigura();
+                    Console.WriteLine("***DIBUJANDO EN CANVA***");
+                    figura.dibujarFigura();
                 }
             }
             else
