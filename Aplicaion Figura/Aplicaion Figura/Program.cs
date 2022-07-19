@@ -65,8 +65,7 @@ namespace AplicacionFiguras
                 cont++;
             }
 
-            Console.WriteLine("AREA TOTAL DE CANVA  : " + canvaArea);
-            Console.WriteLine();
+            Console.WriteLine("\nAREA TOTAL DE CANVA  : " + canvaArea);
             Console.WriteLine("AREA TOTAL DE FIGURAS: " + acumuladorAreas);
             Console.WriteLine();
             Console.WriteLine("\n***CANVA***");
