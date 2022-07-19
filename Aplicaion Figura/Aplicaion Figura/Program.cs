@@ -18,32 +18,31 @@ namespace AplicacionFiguras
 
             Console.WriteLine();
             Console.WriteLine("Defino Creadores y Productos");
-            CreadorRectangulo creatorA = new();
-            CreadorCirculo creatorB = new();
-            CreadorTriangulo creatorC = new();
+            CreadorRectangulo creatorRectangulo = new CreadorRectangulo();
+            CreadorCirculo creatorCirculo = new CreadorCirculo();
+            CreadorTriangulo creatorTriangulo = new CreadorTriangulo();
 
-            Console.WriteLine();
-            Console.WriteLine("***Creadores***");
+            Console.WriteLine("\n***Creadores***");
             List<IFigura> listaFiguras = new List<IFigura>();
 
-            var fig = JsonConvert.DeserializeObject<List<AplicacionFigura.Modelo>>(figuras);
+            var figuraFile = JsonConvert.DeserializeObject<List<AplicacionFigura.Modelo>>(figuras);
 
-            if (fig != null)
+            if (figuraFile != null)
             {
-                for (int i = 0; i < fig.Count; i++)
+                for (int i = 0; i < figuraFile.Count; i++)
                 {
                     Console.WriteLine("Figura: " + i);
-                    if (fig[i].Figura.Nombre == "Rectángulo")
+                    if (figuraFile[i].Figura.Nombre == "Rectángulo")
                     {
-                        listaFiguras.Add(creatorA.crearFigura(fig[i].Figura.Nombre, fig[i].Figura.Tipo, fig[i].Figura.Cadena));
+                        listaFiguras.Add(creatorRectangulo.crearFigura(figuraFile[i].Figura.Nombre, figuraFile[i].Figura.Tipo, figuraFile[i].Figura.Cadena));
                     }
-                    else if (fig[i].Figura.Nombre == "Circulo")
+                    else if (figuraFile[i].Figura.Nombre == "Circulo")
                     {
-                        listaFiguras.Add(creatorB.crearFigura(fig[i].Figura.Nombre, fig[i].Figura.Tipo, fig[i].Figura.Cadena));
+                        listaFiguras.Add(creatorCirculo.crearFigura(figuraFile[i].Figura.Nombre, figuraFile[i].Figura.Tipo, figuraFile[i].Figura.Cadena));
                     }
-                    else if (fig[i].Figura.Nombre == "Triángulo")
+                    else if (figuraFile[i].Figura.Nombre == "Triángulo")
                     {
-                        listaFiguras.Add(creatorC.crearFigura(fig[i].Figura.Nombre, fig[i].Figura.Tipo, fig[i].Figura.Cadena));
+                        listaFiguras.Add(creatorTriangulo.crearFigura(figuraFile[i].Figura.Nombre, figuraFile[i].Figura.Tipo, figuraFile[i].Figura.Cadena));
                     }
                     
                 }
