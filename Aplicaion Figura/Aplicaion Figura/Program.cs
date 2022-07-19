@@ -12,17 +12,14 @@ namespace AplicacionFiguras
         public static void Main(string[] args)
         {
             //LEER JSON
-            Console.WriteLine("LEER JSON -> FIGURAS");
+
             var figuras = GetFiguresJsonFromFile();
-            Console.WriteLine(figuras);
 
             Console.WriteLine();
-            Console.WriteLine("Defino Creadores y Productos");
             CreadorRectangulo creatorRectangulo = new CreadorRectangulo();
             CreadorCirculo creatorCirculo = new CreadorCirculo();
             CreadorTriangulo creatorTriangulo = new CreadorTriangulo();
 
-            Console.WriteLine("\n***Creadores***");
             List<IFigura> listaFiguras = new List<IFigura>();
 
             var figuraFile = JsonConvert.DeserializeObject<List<AplicacionFigura.Modelo>>(figuras);
@@ -31,7 +28,7 @@ namespace AplicacionFiguras
             {
                 for (int i = 0; i < figuraFile.Count; i++)
                 {
-                    Console.WriteLine("Figura: " + i);
+
                     if (figuraFile[i].Figura.Nombre == "Rectángulo")
                     {
                         listaFiguras.Add(creatorRectangulo.crearFigura(figuraFile[i].Figura.Nombre, figuraFile[i].Figura.Tipo, figuraFile[i].Figura.Cadena));
@@ -55,14 +52,9 @@ namespace AplicacionFiguras
             int cont = 0;
             foreach (IFigura figura in listaFiguras)
             {
-                Console.WriteLine("FIGURA: " + cont);
-                figura.dibujarFigura();
                 double area = figura.calcularArea();
-                Console.WriteLine("El Área es: " + area);
                 acumuladorAreas = acumuladorAreas + area;
-                Console.WriteLine("La longitud de la etiqueta es: " + figura.calcularLongitudEtiqueta());
-                Console.WriteLine("==========================\n");
-                cont++;
+
             }
 
             Console.WriteLine("\nAREA TOTAL DE CANVA  : " + canvaArea);
